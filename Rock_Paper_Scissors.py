@@ -39,9 +39,10 @@ while playing:
 		user_choice = 3
 	else:
 		print("That was not an option, try again")
-		os.system('cls')
+		os.system('clear')
 	find_winner(user_choice, computer_choice)
 	keep_playing = input("Want to play again? 'y' or 'n'\n")
+	os.system('clear')
 	if keep_playing == 'n':
 		playing = False
 		
